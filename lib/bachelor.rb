@@ -17,7 +17,7 @@ end
 def get_contestant_name(data, occupation)
   # code here
   data.each do |show_season_number, contestants_data|
-    data[season].each do |people|
+    contestants_data[season].each do |people|
       people.each do |k,v|
         if v == "Winner"
             full_name = people["name"]
