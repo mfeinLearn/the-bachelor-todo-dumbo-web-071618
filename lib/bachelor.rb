@@ -63,7 +63,7 @@ age = 0
 count = 0
   data[season].each do |hash|
     hash.each do |k,v|
-      binding.pry
+      #binding.pry
       if k == "age"
         count += 1
         age += v.to_f
