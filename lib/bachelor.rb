@@ -5,7 +5,7 @@ def get_first_name_of_season_winner(data, season)
   #binding.pry
     data.each do |show_season_number, contestants_data|
       binding.pry
-      if contestants_data
+      if contestants_data == win
     end
     end
 end
