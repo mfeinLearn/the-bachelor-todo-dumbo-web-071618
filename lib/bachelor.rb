@@ -16,7 +16,7 @@ end
 
 def get_contestant_name(data, occupation)
   # code here
-  data.each do |sho|
+  data.each do |show_season_number, contestants_data|
     data[season].each do |people|
       people.each do |k,v|
         if v == "Winner"
