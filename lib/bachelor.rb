@@ -33,7 +33,7 @@ counter = 0
   data.each do |season, array|
     array.each do |hash|
       hash.each do |k,v|
-        binding.pry
+        #binding.pry
         if v == hometown
           counter += 1
         end
